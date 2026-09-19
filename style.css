@@ -1,0 +1,121 @@
+/* ===== HEADER ===== */
+
+header {
+    text-align: center;
+    padding: 55px 20px 40px;
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: -0.5px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 17px;
+    color: #666666;
+}
+
+
+/* ===== NAVIGATION ===== */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    text-align: center;
+    padding: 15px 10px;
+
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #eeeeee;
+}
+
+nav a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: #555555;
+
+    margin: 0 18px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #a8798c;
+}
+
+.section-image {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 18px auto 22px;
+    border-radius: 12px;
+}
+
+section {
+    background-color: white;
+    padding: 32px 38px;
+    margin-bottom: 28px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+    margin: 0 0 18px;
+    font-size: 28px;
+    color: #333333;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    margin: 0 0 14px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+}
+
+.about-photo {
+    width: 150px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+#career-button {
+    border: none;
+    background-color: #a8798c;
+    color: white;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#career-button:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+#career-message {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #a8798c;
+}
