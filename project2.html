@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>San Diego Pothole Requests | Q3 2026</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f3f6f8; color: #203344; font-family: Arial, sans-serif; line-height: 1.6; }
+    header, main, footer { max-width: 1440px; margin: auto; padding: 24px; }
+    header { padding-bottom: 12px; }
+    h1 { margin: 6px 0 10px; font-size: clamp(26px, 4vw, 40px); line-height: 1.2; }
+    p { margin: 10px 0; }
+    a { color: #075f8a; }
+    .eyebrow { font-size: 13px; font-weight: bold; letter-spacing: 1px; }
+    .instructions { background: white; padding: 16px 20px; border-left: 4px solid #167e9c; margin-bottom: 16px; }
+    iframe { display: block; width: 100%; height: 850px; height: max(650px, 85vh); border: 1px solid #ccd6de; background: white; }
+    footer { font-size: 14px; padding-top: 0; }
+    @media (max-width: 600px) { header, main, footer { padding: 16px; } iframe { height: 800px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="./">Back to Project 1</a>
+    <p class="eyebrow">SSCI 591 · PROJECT 2 · SHUIYINGZI HU</p>
+    <h1>San Diego Pothole Requests</h1>
+    <p><strong>July 1–September 30, 2026</strong></p>
+    <p>This dashboard explores 2,694 pothole repair requests recorded in the City of San Diego's Get It Done dataset during the third quarter of 2026. It helps residents and other visitors explore where requests were reported and compare their recorded processing statuses.</p>
+  </header>
+  <main>
+    <div class="instructions">
+      <strong>Explore the dashboard</strong>
+      <p>Click a status bar to filter the map and request count. Click the selected bar again to clear the selection. Click a map point to see its request details.</p>
+      <a href="https://uscssi.maps.arcgis.com/apps/dashboards/3813fe72cb7e48d18be0cfa31274ed4c" target="_blank" rel="noopener noreferrer">Open dashboard in a separate tab</a>
+    </div>
+    <iframe src="https://uscssi.maps.arcgis.com/apps/dashboards/3813fe72cb7e48d18be0cfa31274ed4c" title="Interactive San Diego pothole request dashboard for July through September 2026" allowfullscreen></iframe>
+  </main>
+  <footer>
+    <p><strong>Source:</strong> City of San Diego, Get It Done — Pothole Repair Requests. Records were selected by request date; this is a static dataset, not a live feed.</p>
+    <p><strong>Interpretation:</strong> Points represent requests, not necessarily distinct potholes. “Closed” is a request status and does not by itself confirm a repair. Statuses reflect the downloaded data, not necessarily the status on September 30. Reporting patterns do not measure all road defects.</p>
+  </footer>
+</body>
+</html>
